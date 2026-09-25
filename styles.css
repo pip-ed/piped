@@ -346,19 +346,17 @@ border-bottom: 1px solid var(--line);
 }
 
 .theme-image {
-width: 100%;
-aspect-ratio: 1.35 / 1;
-display: flex;
-align-items: center;
-justify-content: center;
-
-margin: 0;
-
-padding: 18px;
-
-overflow: hidden;
-
+    width: 100%;
+    aspect-ratio: 1.35 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 18px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
+
 .theme-image img {
 width: 82%;
 height: 82%;
