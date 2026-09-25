@@ -338,8 +338,6 @@ RESEARCH THEMES
 display: flex;
 flex-direction: column;
 
-min-height: 100%;
-
 border-top: 1px solid var(--line);
 border-left: 1px solid var(--line);
 border-right: 1px solid var(--line);
